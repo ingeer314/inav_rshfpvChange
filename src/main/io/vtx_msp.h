@@ -24,7 +24,7 @@
 
 
 #define VTX_MSP_TIMEOUT         250 // ms
-#define VTX_MSP_BAND_COUNT      5
+#define VTX_MSP_BAND_COUNT      6
 #define VTX_MSP_CHANNEL_COUNT   8
 #define VTX_MSP_POWER_COUNT     4
 
