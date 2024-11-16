@@ -35,7 +35,7 @@ typedef enum {
 } vtxLowerPowerDisarm_e;
 
 typedef struct vtxSettingsConfig_s {
-    uint8_t band;               // 1=A, 2=B, 3=E, 4=F(Airwaves/Fatshark), 5=Racebande
+    uint8_t band;               // 1=A, 2=B, 3=E, 4=F(Airwaves/Fatshark), 5=Racebande, 6=T //for Dartshit
     uint8_t channel;            // 1-8
     uint8_t power;              // 0 = lowest
     uint16_t pitModeChan;       // sets out-of-range pitmode frequency
