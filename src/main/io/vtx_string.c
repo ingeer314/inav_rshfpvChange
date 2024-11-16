@@ -25,7 +25,7 @@
 #include "platform.h"
 #include "build/debug.h"
 
-#define VTX_STRING_5G8_BAND_COUNT  5
+#define VTX_STRING_5G8_BAND_COUNT  6
 #define VTX_STRING_5G8_CHAN_COUNT  8
 #define VTX_STRING_5G8_POWER_COUNT 5
 
@@ -40,6 +40,7 @@ const uint16_t vtx58frequencyTable[VTX_STRING_5G8_BAND_COUNT][VTX_STRING_5G8_CHA
     { 5705, 5685, 5665, 5645, 5885, 5905, 5925, 5945 }, // E
     { 5740, 5760, 5780, 5800, 5820, 5840, 5860, 5880 }, // F
     { 5658, 5695, 5732, 5769, 5806, 5843, 5880, 5917 }, // R
+    { 6000, 6010, 6020, 6030, 6040, 6050, 6060, 6060 }, // TS or T
 };
 
 const char * const vtx58BandNames[VTX_STRING_5G8_BAND_COUNT + 1] = {
@@ -49,9 +50,10 @@ const char * const vtx58BandNames[VTX_STRING_5G8_BAND_COUNT + 1] = {
     "E",
     "F",
     "R",
+    "T",
 };
 
-const char vtx58BandLetter[VTX_STRING_5G8_BAND_COUNT + 1] = "-ABEFR";
+const char vtx58BandLetter[VTX_STRING_5G8_BAND_COUNT + 1] = "-ABEFRT";
 
 const char * const vtx58ChannelNames[VTX_STRING_5G8_CHAN_COUNT + 1] = {
     "-", "1", "2", "3", "4", "5", "6", "7", "8",
