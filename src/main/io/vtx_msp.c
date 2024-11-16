@@ -67,10 +67,10 @@ typedef struct {
 } vtxProtoState_t;
 
 const char * const vtxMspBandNames[VTX_MSP_BAND_COUNT + 1] = {
-    "-----", "A 2.4", "B 2.4", "E 2.4", "F 2.4", "R 2.4"
+    "-----", "A 2.4", "B 2.4", "E 2.4", "F 2.4", "R 2.4", "T 2.4"
 };
 
-const char * vtxMspBandLetters = "-ABEFR";
+const char * vtxMspBandLetters = "-ABEFRT";
 
 const char * const vtxMspChannelNames[VTX_MSP_CHANNEL_COUNT + 1] = {
     "-", "1", "2", "3", "4", "5", "6", "7", "8"
